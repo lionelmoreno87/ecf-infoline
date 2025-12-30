@@ -1,0 +1,26 @@
+# Système
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Terraform (Infrastructure)
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Java
+**/target/
+*.class
+*.jar
+*.log
+
+# Angular
+**/node_modules/
+**/dist/
+.angular/
+
+# Sécurité (Ne jamais commiter)
+.env
